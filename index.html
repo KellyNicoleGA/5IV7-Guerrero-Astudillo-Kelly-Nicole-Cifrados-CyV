@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado César</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <p>Kelly Nicole Guerrero Astudillo 5IV7</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Cifrado César</a></li>
+                <li><a href="index2.html">Cifrado Vigenere</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="centrar">
+    <p class="cesar">Cifrado César</p>
+    <br>
+    <textarea id="cadena" cols="30" rows="10"></textarea>
+    <br>
+    <div class="botones">
+        <input type="button" value="Cifrar" class="cifrar" onclick="cifrar()"  >
+        <input type="button" value="Descifrar" class="descifrar" onclick="descifrar()">
+    </div>
+    <div id="resultado" class="id" >
+    aquí va el resultado
+    </div>
+    </div>
+    <footer>
+        Contacto: guerrerokellynicole@gmail.com
+    </footer>
+    <script src="js/cesar.js" ></script>
+</body>
+</html>

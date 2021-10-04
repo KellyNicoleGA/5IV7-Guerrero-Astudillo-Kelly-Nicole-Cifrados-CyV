@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    background: white ;
+    border: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    background-color: white;
+    color: #ff878d;
+    font-family: 'Calibri Light';
+}
+header p{
+    font-family: 'Century Gothic';
+    text-align: center;
+}
+ul{
+    background-color: #ff878d; 
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+
+}
+li{
+    float: left;
+    background-color: #ff878d;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 100%;
+    margin:0;
+}
+li a{
+    color: white;
+    font-family: 'Century Gothic';
+    text-decoration: none;
+    padding: 1.1rem;
+    
+}
+li a:hover{
+    background-color: white ;
+    color: #ff878d
+}
+.cesar{
+    color: #ff878d;
+    font-family: 'AcapelaDEMO';
+    font-size: 1.5rem;
+    padding: .5rem;
+    text-align: center;
+}
+textarea{
+    background:  #ff878d;
+    font-family: 'Calibri Light';
+    font-size: 1rem;
+    margin-left: 33%;
+    width: 35%;
+    color: white;
+    padding: .6rem;
+    border: #ff878d;
+    outline: none;
+}
+input{
+    background-color: #ff878d;
+    margin: 1rem;
+    font-family: 'Century Gothic';
+    font-size: 1rem;
+    color: white;
+    padding: .5rem;
+    border: #ff878d; 
+
+}
+input:hover{
+    background-color: white;
+    border: white;
+    color: #ff878d;
+}
+.id{
+    background-color: #ff878d ;
+    height: 2rem;
+    font-family: 'Century Gothic';
+    color: white;
+    width: 25%;
+    font-size: 1rem;
+    padding: .5rem;
+    margin-left: 32em;
+}
+.botones{
+    margin-left:37rem;
+}
+footer{
+    background-color: white ;
+    padding: 1rem;
+    color: #ff878d;
+    font-family: 'Calibri Light';
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    width: 97.5%;
+
+}

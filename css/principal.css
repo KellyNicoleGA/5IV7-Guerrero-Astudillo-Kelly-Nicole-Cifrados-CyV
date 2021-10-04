@@ -1,0 +1,50 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to bottom right, rgb(44, 199, 226), rgb(73, 250, 73)) ;
+    border: 0;
+    margin: 0;
+    border: 0;
+}
+header{
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    background-color: rgba(255, 255, 255,0) ;
+    color: white;
+    font-family: 'Calibri Light';
+}
+header p{
+    font-family: 'Century Gothic' ;
+    text-align: center;
+}
+ul{
+    background-color: rgba(255, 255, 255,0) ;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+
+}
+li{
+    float: left;
+    background-color:  rgba(255, 255, 255,0) ;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 100%;
+    margin:0;
+}
+li a{
+    color: white;
+    font-family: 'Century Gothic';
+    text-decoration: none;
+    padding: 1.1rem;
+    
+}
+li a:hover{
+    background-color: white ;
+    color:  rgb(44, 199, 226);
+    /*#38302e;*/
+}
